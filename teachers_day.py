@@ -1,6 +1,6 @@
 print('\n'.join
       ([''.join
-        ([('Teachers day'[(x-y)%8 ]
+        ([('Teachers'[(x-y)%8 ]
            if((x*0.05)**2+(y*0.1)**2-1)
            **3-(x*0.05)**2*(y*0.1)
            **3<=0 else' ')
